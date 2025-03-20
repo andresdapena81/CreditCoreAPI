@@ -4,7 +4,7 @@ namespace CreditCore.Application.Services
 {
     public class PaymentProjectionService
     {
-        public static List<PaymentProjectionDto> CalcularPlanPagos(decimal monto, int plazoMeses, double tasaInteres)
+        public List<PaymentProjectionDto> CalcularPlanPagos(decimal monto, int plazoMeses, double tasaInteres)
         {
             var planPagos = new List<PaymentProjectionDto>();
 

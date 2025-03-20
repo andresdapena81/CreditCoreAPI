@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CreditCore.Domain\CreditCore.Domain.csproj" />
-    <ProjectReference Include="..\CreditCore.Application\CreditCore.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

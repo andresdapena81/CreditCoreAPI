@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CreditCore.Domain\CreditCore.Domain.csproj" />
     <ProjectReference Include="..\CreditCore.Shared\CreditCore.Shared.csproj" />
+	<ProjectReference Include="..\CreditCore.Infrastructure\CreditCore.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
